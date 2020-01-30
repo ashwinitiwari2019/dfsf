@@ -12,6 +12,7 @@ public class Launch {
 		// TODO Auto-generated method stub
 		WebDriver driver;
 //		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+// Testing
 		driver = MyDriver.getDriver("CRM");
 		driver.get("http://newtours.demoaut.com");
 		WebDriverWait Wait = new WebDriverWait(driver, 60);
